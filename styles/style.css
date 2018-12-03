@@ -1,0 +1,314 @@
+body {
+	font-family: Garamond, Cambria, Arial, Sans-serif;
+	height: 100%;
+	color: #585858;
+}
+header {
+	color: white;
+	background-color: #1c384d;
+}
+h1 {
+	font-size: 340%;
+}
+h2 {
+	font-size: 170%;
+}
+h2:after {
+	overflow: hidden;
+	background-color: red;
+	content: "";
+	display: inline-block;
+	height: 3px;
+	position: relative;
+	vertical-align: middle;
+	left: 0.5em;
+}
+#education_heading {
+	flex-basis: 100%;
+}
+#education_heading:after {
+	width: 23%;
+}
+#qualities_heading:after {
+	width: 30%;
+}
+#skills_heading:after {
+	width: 25%;
+}
+#interests_heading:after {
+	width: 50%;
+}
+h3 {
+	font-size: 170%;
+}
+h4, h2, .place {
+	color: #1c384d;
+}
+h4 {
+	margin: 0;
+	padding: 0;
+}
+#Me {
+	border-bottom: 2px solid white;
+	padding-top: 2%;
+}
+.main {
+	position: relative;
+	left: 25%;
+	width: 52%;
+}
+#name {
+	display: inline;
+}
+#profession {
+	display: inline;
+	margin: 0 0 0 14%;
+}
+.fa-envelope, .fa-phone-square {
+	font-size: 12px;
+	color: white;
+}
+#photo_block {
+	position: absolute;
+	top: 5%;
+	left: 10%;
+}
+.photo {
+	border-radius: 50%;
+	border: 8px solid white;
+	height: 180px;
+	width: 165px;
+}
+address {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+#phone {
+	display: inline-block;
+	margin-left: 4%;
+}
+#who_am_i {
+	width: 52%;
+}
+#profile_beginning, .date {
+	color: red;
+}
+#content_container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+#education {
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	flex-basis: 40%;
+	margin-left: 5%;
+	margin-top: 10px;
+}
+.school, .uni, .rubym {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.time_and_place {
+	flex-basis: 25%;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+.what_was_learned {
+	flex-basis: 60%;
+	flex-shrink: 0;
+	flex-grow: 0;
+	margin-left: 2%;
+}
+#school_when {
+	order: 0;
+}
+#school_what {
+	order: 1;
+	border-bottom: 1px solid grey;
+}
+#uni_when {
+	order: 2;
+}
+#uni_what {
+	order: 3;
+	border-bottom: 1px solid grey;
+}
+#rubym_when {
+	order: 4;
+}
+#rubym_what {
+	order: 5;
+	border-bottom: 1px solid grey;
+}
+#wok_when {
+	order: 6;
+}
+#wok_what {
+	order: 7;
+}
+#personal_qualities {
+	flex-basis: 40%;
+	margin-top: 10px;
+}
+.qualities {
+	display: inline-block;
+	margin-bottom: 20px;
+	flex-basis: 30%;
+}
+#last_quality {
+	display: inline-block;
+	flex-basis: 30%;
+}
+.fa-circle {
+	display: inline-block;
+	margin-left: 1%;
+}
+.dots {
+	flex-basis: 30%;
+	margin-right: 200px;
+	white-space: nowrap;
+	margin-bottom: 20px;
+}
+.fa-circle {
+	font-size: 12px;
+	color: red;
+}
+.blue_circles {
+	color:#1c384d;
+}
+#qualities_content {
+	position: relative;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+}
+#skills {
+	position: relative;
+	height: 200px;
+	flex-basis: 40%;
+	margin-left: 5%;
+	margin-top: 60px;
+}
+#c, #cplus, #html, #css, #javascript, #ruby, #java {
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 50%;
+	color: white;
+}
+#c {
+	height: 150px;
+	width: 150px;
+	top: 128px;
+	left: 217px;
+	line-height: 150px;
+	background-color: #1c384d;
+}
+#cplus {
+	height: 90px;
+	width: 90px;
+	top: 273px;
+	left: 275px;
+	line-height: 90px;
+	background-color: #528B8B;
+}
+#html {
+	height: 110px;
+	width: 110px;
+	top: 217px;
+	left: 130px;
+	line-height: 110px;
+	background-color: #2F4F4F;
+}
+#css {
+	height: 110px;
+	width: 110px;
+	top: 208px;
+	left: 350px;
+	line-height: 110px;
+	background-color: red;
+}
+#javascript {
+	height: 60px;
+	width: 60px;
+	top: 150px;
+	left: 160px;
+	line-height: 60px;
+	background-color: #00CDCD;
+}
+#ruby {
+	height: 100px;
+	width: 100px;
+	top: 80px;
+	left: 342px;
+	line-height: 100px;
+	background-color: #05B8CC;
+}
+#java {
+	height: 80px;
+	width: 80px;
+	top: 62px;
+	left: 200px;
+	line-height: 80px;
+	background-color: #a64dff;
+}
+#interests {
+	flex-basis: 40%;
+	margin-top: 60px;
+}
+#hobbies {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+}
+.hobby {
+	flex-basis: 100%;
+}
+.hobby_paragraph {
+	border-bottom: 1px solid grey;
+	padding-bottom: 10px;
+	flex-basis: 70%;
+}
+#last_paragraph {
+	flex-basis: 70%;
+}
+@media only screen and (max-width:1180px) {
+	.photo, h2:after {
+		visibility: hidden;
+	}
+	#c {
+		top: 83px;
+		left: 1px;
+	}
+	#html {
+		top: 230px;
+		left: 1px;
+	}
+	#javascript {
+		top: 340px;
+		left: 1px;
+	}
+	#java {
+		top: 400px;
+		left: 1px;
+	}
+	#cplus {
+		top: 490px;
+		left: 1px;
+	}
+	#ruby {
+		top: 590px;
+		left: 1px;
+	}
+	#css {
+		top: 700px;
+		left: 1px;
+	}
+	.time_and_place, .what_was_learned {
+		flex-basis: 100%;
+	}
+}
